@@ -1,6 +1,6 @@
 ### Web dengan bahasa pemrograman php mengikuti **Layered Architecture**
 
-Ada 4 layer arsitektur yang diikuti yaitu seperti gambar berikut
+Ada 4 layer arsitektur yang diikuti yaitu seperti gambar berikut:
 ![Layered Architecture](https://static.javatpoint.com/springboot/images/spring-boot-architecture.png)
 
 * **Presentation Layer**: The presentation layer handles the HTTP requests, translates the JSON parameter to object, and authenticates the request and transfer it to the business layer. In short, it consists of views i.e., frontend part.
