@@ -11,4 +11,26 @@ Ada 4 layer arsitektur yang diikuti yaitu seperti gambar berikut:
 
 * **Database Layer**: In the database layer, CRUD (create, retrieve, update, delete) operations are performed.
 
+**Folder**
+<pre>
+layeredarchitecture
+├── app
+│   ├── controllers
+│   └── core
+|   └── models
+|   └── views
+├── public
+</pre>
+
+**Penjelasan Folder**
+* Controller <pre>app/controller</pre> berisikan semua Controller saat menerima request dari client yang merupakan bagian dari **Presentation Layer**.
+
+* Core <pre>app/core</pre> berisikan semua Class yang saling berhubungan untuk membentuk arsitektur seperti MVC yang merupakan bagian dari **Business Layer**.
+
+* Models <pre>app/models</pre> berisikan semua Class yang saling berhubungan untuk membentuk arsitektur seperti MVC yang merupakan bagian dari **Business Layer**.
+
+* Views <pre>app/views</pre> berisikan semua Class yang saling berhubungan untuk membentuk arsitektur seperti MVC yang merupakan bagian dari **Presentation Layer**.
+
+* Public <pre>public </pre> merupakan folder public dimana client dapat mengakses (Hapus file .**htacess** pada folder **root** jika digunakan pada server atau hosting utama)
+
 Sumber : [Spring Boot Architecture](https://www.javatpoint.com/spring-boot-architecture)
